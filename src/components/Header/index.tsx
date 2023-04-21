@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "../Button";
 
 export const Header = () => {
@@ -5,37 +6,40 @@ export const Header = () => {
     <>
       <nav className="flex flex-wrap items-center justify-between max-w-6xl mx-auto py-4 md:py-0 px-4 text-lg text-gray-700 bg-white">
         <div>
-          <a href="#" className="font-bold text-slate-900 uppercase">
+          <Link href="/" className="font-bold text-slate-900 uppercase">
             Dr. Felipe Leão
-          </a>
+          </Link>
         </div>
         <div className="hidden w-full md:flex md:items-center md:w-auto">
           <ul className=" pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0">
             <li>
-              <a className="md:p-4 py-2 block hover:text-slate-900" href="#">
+              <Link className="md:p-4 py-2 block hover:text-slate-900" href="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className="md:p-4 py-2 block hover:text-slate-900"
-                href="#sobre"
+                href="/sobre"
               >
                 Sobre
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className="md:p-4 py-2 block hover:text-slate-900"
-                href="#atendimento"
+                href="/atendimento"
               >
                 Locais de Atendimento
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="md:p-4 py-2 block hover:text-slate-900" href="#">
+              <Link
+                className="md:p-4 py-2 block hover:text-slate-900"
+                href="/contato"
+              >
                 Contato
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

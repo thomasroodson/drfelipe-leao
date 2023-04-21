@@ -8,7 +8,7 @@ type Props = {
 
 export const Button = ({ label, url, bgcolor, svg }: Props) => {
   return (
-    <Link href={url}>
+    <Link href={url} target="_blanc">
       <button
         className={`flex items-center mt-5 px-5 py-2 rounded-full text-base font-semibold ${
           bgcolor
