@@ -1,9 +1,20 @@
 import Link from "next/link";
 import { Button } from "../Button";
+import Head from "next/head";
 
 export const Header = () => {
   return (
     <>
+      <Head>
+        <title>Dr Felipe Leão</title>
+        <meta charSet="utf-8" />
+        <meta
+          name="description"
+          content="OTORRINOLARINGOLOGIA |
+    Cuidando da Saúde dos Ouvidos, Nariz e Garganta"
+        />
+        <meta property="og:url" content="https://drfelipeleao.com.br/" />
+      </Head>
       <nav className="flex flex-wrap items-center justify-between max-w-6xl mx-auto py-4 md:py-0 px-4 text-lg text-gray-700 bg-white">
         <div>
           <Link href="/" className="font-bold text-slate-900 uppercase">
@@ -63,7 +74,7 @@ export const Header = () => {
             <p>CRM: 30874</p>
           </div>
 
-          <Button label="agende uma visita" url="https://google.com/" />
+          <Button label="agende uma visita" url="/atendimento" />
         </div>
       </header>
     </>

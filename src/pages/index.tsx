@@ -10,20 +10,10 @@ import GargantaImage from "../../public/garganta.png";
 import Perfil from "../../public/Perfil.png";
 import Pattern from "../../public/pattern.png";
 import PatternRight from "../../public/patternright.png";
-import Head from "next/head";
 
 export default function Home() {
   return (
     <main className="w-full">
-      <Head>
-        <title>Dr Felipe Leão</title>
-        <meta
-          name="description"
-          content="OTORRINOLARINGOLOGIA |
-    Cuidando da Saúde dos Ouvidos, Nariz e Garganta"
-        />
-        <meta property="og:url" content="https://drfelipeleao.com.br/" />
-      </Head>
       <Header />
       <section
         className="md:w-5/6 mx-auto bg-slate-900 flex flex-col md:flex-row rounded-xl text-white py-12 px-10 md:px-28 gap-8"
@@ -95,7 +85,10 @@ export default function Home() {
             aos meus pacientes, desde o diagnóstico, através da realização de
             exames com alta tecnologia, até o tratamento clínico e cirúrgico.
           </p>
-          <Button label="continue lendo..." url="/sobre" />
+          <Button
+            label="Conheça a minha trajetória profissional..."
+            url="/sobre"
+          />
         </div>
       </section>
 
