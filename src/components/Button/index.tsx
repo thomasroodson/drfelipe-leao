@@ -4,11 +4,12 @@ type Props = {
   url: string;
   bgcolor?: string;
   svg?: string;
+  target?: string;
 };
 
-export const Button = ({ label, url, bgcolor, svg }: Props) => {
+export const Button = ({ label, url, bgcolor, svg, target }: Props) => {
   return (
-    <Link href={url} target="_blanc">
+    <Link href={url} target={target ? target : "_self"}>
       <button
         className={`flex items-center mt-5 px-5 py-2 rounded-full text-base font-semibold ${
           bgcolor

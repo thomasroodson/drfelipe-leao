@@ -125,6 +125,7 @@ export default function Home() {
                 url="https://www.simmedicina.com.br/"
                 bgcolor="bg-white text-slate-900"
                 svg="fill-slate-900"
+                target="_blank"
               />
             </div>
           </div>
@@ -141,6 +142,7 @@ export default function Home() {
                 url="http://www.otorrinoclinvitta.com/"
                 bgcolor="bg-white text-slate-900"
                 svg="fill-slate-900"
+                target="_blank"
               />
             </div>
           </div>
@@ -157,6 +159,7 @@ export default function Home() {
                 url="https://www.clinicaamo.com.br/"
                 bgcolor="bg-white text-slate-900"
                 svg="fill-slate-900"
+                target="_blank"
               />
             </div>
           </div>

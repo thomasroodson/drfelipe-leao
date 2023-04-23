@@ -6,8 +6,8 @@ export const Header = () => {
   return (
     <>
       <Head>
-        <title>Dr Felipe Leão</title>
         <meta charSet="utf-8" />
+        <title>Dr Felipe Leão</title>
         <meta
           name="description"
           content="OTORRINOLARINGOLOGIA |
