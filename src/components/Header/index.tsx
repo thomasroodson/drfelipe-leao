@@ -56,7 +56,7 @@ export const Header = () => {
         </div>
       </nav>
       <header
-        className="flex items-center bg-center md:bg-right-top"
+        className="flex items-center bg-center"
         style={{
           backgroundImage: "url('/Header.jpg')",
           height: "680px"
