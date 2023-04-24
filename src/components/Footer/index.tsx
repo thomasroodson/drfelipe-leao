@@ -14,17 +14,11 @@ export const Footer = () => {
         Dr. Felipe Leão
       </a>
       <div className="flex mt-5 gap-5 justify-center">
-        <Link href="https://facebook.com/">
+        <Link href="https://www.facebook.com/profile.php?id=100085178149359">
           <FontAwesomeIcon icon={faFacebookF} />
         </Link>
-        <Link href="https://facebook.com/">
+        <Link href="https://instagram.com/felipeleao.otorrino">
           <FontAwesomeIcon icon={faInstagram} />
-        </Link>
-        <Link href="https://facebook.com/">
-          <FontAwesomeIcon icon={faYoutube} />
-        </Link>
-        <Link href="https://facebook.com/">
-          <FontAwesomeIcon icon={faTwitter} />
         </Link>
       </div>
       <footer className="text-sm mb-2">
