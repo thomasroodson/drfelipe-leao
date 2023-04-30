@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Header } from "@/components/Header";
 import { Button } from "@/components/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,14 +11,20 @@ import GargantaImage from "../../public/garganta.png";
 import Perfil from "../../public/Perfil.png";
 import Pattern from "../../public/pattern.png";
 import PatternRight from "../../public/patternright.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
   return (
     <main className="w-full">
       <Header />
       <section
         className="md:w-5/6 mx-auto bg-slate-900 flex flex-col md:flex-row rounded-xl text-white py-12 px-10 md:px-28 gap-8"
         style={{ marginTop: "-60px" }}
+        data-aos="fade-up"
       >
         <div className="flex flex-1 mr-2 items-center md:border-e md:border-white">
           <div className="pr-8">
@@ -53,7 +60,7 @@ export default function Home() {
         className="md:w-4/5 mx-auto flex flex-col md:flex-row p-10"
         id="sobre"
       >
-        <div className="relative">
+        <div className="relative" data-aos="fade-right">
           <Image
             src={PatternRight}
             className="absolute top-5 none"
@@ -68,7 +75,10 @@ export default function Home() {
             alt="Pattern"
           />
         </div>
-        <div className="flex-1 ml-5 pt-5 space-y-6 text-base">
+        <div
+          className="flex-1 ml-5 pt-5 space-y-6 text-base"
+          data-aos="fade-left"
+        >
           <h2 className="text-slate-900 text-4xl uppercase font-bold">
             Quem sou eu
           </h2>

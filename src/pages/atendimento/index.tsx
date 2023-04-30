@@ -1,13 +1,29 @@
+import { useEffect } from "react";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Button } from "@/components/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
+import {
+  faCircleCheck,
+  faCircleDown
+} from "@fortawesome/free-regular-svg-icons";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Atendimento = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
   return (
     <main className="w-full">
       <Header />
+      <div
+        className="flex justify-center text-slate-900 py-10"
+        data-aos="fade-down"
+        style={{ marginTop: "-180px" }}
+      >
+        <FontAwesomeIcon icon={faCircleDown} size="2xl" />
+      </div>
       <section className="bg-slate-900 text-white">
         <div className="md:w-2/3 mx-auto flex flex-col space-y-1 py-10 px-5">
           <div className="text-center">
