@@ -59,8 +59,9 @@ export default function Home() {
       <section
         className="md:w-4/5 mx-auto flex flex-col md:flex-row p-10"
         id="sobre"
+        data-aos="fade-up"
       >
-        <div className="relative" data-aos="fade-right">
+        <div className="relative">
           <Image
             src={PatternRight}
             className="absolute top-5 none"
@@ -75,10 +76,7 @@ export default function Home() {
             alt="Pattern"
           />
         </div>
-        <div
-          className="flex-1 ml-5 pt-5 space-y-6 text-base"
-          data-aos="fade-left"
-        >
+        <div className="flex-1 ml-5 pt-5 space-y-6 text-base">
           <h2 className="text-slate-900 text-4xl uppercase font-bold">
             Quem sou eu
           </h2>
