@@ -1,38 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Site Institucional do Dr. Felipe Leão
 
-## Getting Started
+## Descrição
+Este é o site institucional do Dr. Felipe Leão, um médico otorrinolaringologista especializado no tratamento de ouvidos, nariz e garganta. O site oferece informações sobre os serviços prestados, locais de atendimento, e formas de contato, além de destacar a trajetória e a missão do Dr. Felipe Leão em oferecer um atendimento humanizado e eficaz utilizando as mais avançadas técnicas e tecnologias médicas.
 
-First, run the development server:
+## Funcionalidades Principais
+- **Página Inicial:** Visão geral dos serviços de otorrinolaringologia.
+- **Sobre:** Informações detalhadas sobre o Dr. Felipe Leão, incluindo sua trajetória profissional e especializações.
+- **Locais de Atendimento:** Informações sobre as clínicas onde o Dr. Felipe atende, com links para agendamento de consultas.
+- **Contato:** Formulário de contato e informações de localização.
+- **Serviços:** Descrição dos tratamentos oferecidos para ouvidos, nariz e garganta.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Framework utilizado
+- Next JS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias Utilizadas
+- HTML
+- CSS
+- JavaScript
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Bibliotecas Utilizadas
+- Tailwind
+- AOS
+- Font Awesome
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Autor
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Thomas Roodson
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Imagens do Projeto
 
-## Learn More
+![Screenshot 1](https://i.ibb.co/0y2mX52/screencapture-drfelipeleao-br-2024-07-25-11-59-01.png)
+![Screenshot 2](https://i.ibb.co/vv42vLZ/screencapture-drfelipeleao-br-sobre-2024-07-25-11-59-35.png)
 
-To learn more about Next.js, take a look at the following resources:
+## Link da Página
+[Dr. Felipe Leão](https://drfelipeleao.com.br/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Instalação e Configuração
+1. Clone este repositório.
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   
