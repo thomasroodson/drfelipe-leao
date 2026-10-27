@@ -1,42 +1,38 @@
-# Site Institucional do Dr. Felipe Leão
+# Dr. Felipe Leão — Institutional Website
 
-## Descrição
-Este é o site institucional do Dr. Felipe Leão, um médico otorrinolaringologista especializado no tratamento de ouvidos, nariz e garganta. O site oferece informações sobre os serviços prestados, locais de atendimento, e formas de contato, além de destacar a trajetória e a missão do Dr. Felipe Leão em oferecer um atendimento humanizado e eficaz utilizando as mais avançadas técnicas e tecnologias médicas.
+A website for an otolaryngologist, designed to present the doctor's services, professional background, locations, and contact options in a clear, accessible way.
 
-## Funcionalidades Principais
-- **Página Inicial:** Visão geral dos serviços de otorrinolaringologia.
-- **Sobre:** Informações detalhadas sobre o Dr. Felipe Leão, incluindo sua trajetória profissional e especializações.
-- **Locais de Atendimento:** Informações sobre as clínicas onde o Dr. Felipe atende, com links para agendamento de consultas.
-- **Contato:** Formulário de contato e informações de localização.
-- **Serviços:** Descrição dos tratamentos oferecidos para ouvidos, nariz e garganta.
+The project focuses on structuring service information and guiding visitors toward the right contact or appointment channel. It is an example of front-end work for a real professional service rather than a generic demo page.
 
-## Framework utilizado
-- Next JS
+## Main sections
 
-## Tecnologias Utilizadas
-- HTML
-- CSS
-- JavaScript
+- Overview of medical services
+- Professional profile and background
+- Clinic and appointment information
+- Contact details and calls to action
 
-## Bibliotecas Utilizadas
-- Tailwind
-- AOS
-- Font Awesome
+## Tech stack
 
-## Autor
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- AOS animations
+- Font Awesome icons
 
-- Thomas Roodson
+## Run locally
 
-## Imagens do Projeto
+```bash
+npm install
+npm run dev
+```
 
-![Screenshot 1](https://i.ibb.co/0y2mX52/screencapture-drfelipeleao-br-2024-07-25-11-59-01.png)
-![Screenshot 2](https://i.ibb.co/vv42vLZ/screencapture-drfelipeleao-br-sobre-2024-07-25-11-59-35.png)
+Open [http://localhost:3000](http://localhost:3000).
 
-## Link da Página
-[Dr. Felipe Leão](https://drfelipeleao.com.br/)
+## Website
 
-## Instalação e Configuração
-1. Clone este repositório.
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   
+[drfelipeleao.com.br](https://drfelipeleao.com.br/)
+
+---
+
+This repository documents the front-end implementation. Medical content and service information belong to the healthcare professional and should be reviewed by the site owner before publication.
